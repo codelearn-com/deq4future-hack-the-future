@@ -21,6 +21,7 @@
 
 from flask import Flask, request, jsonify
 from werkzeug.exceptions import BadRequest
+from flask_cors import CORS
 import pymysql
 import os
 import random
@@ -33,6 +34,7 @@ HTTP_METHODS = ['GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'CONNECT', 'OPTIONS', 'T
 # More info: https://stackoverflow.com/a/57022994/9643618
 
 app = Flask(__name__)
+cors = CORS(app)
 
 def get_db():
     conn = pymysql.connect(
