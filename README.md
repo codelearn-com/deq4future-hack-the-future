@@ -1,6 +1,6 @@
 # Hack-The-Future Server
 
-This is the server hosted at [hackathon.deq4future.org](https://hackathon.deq4future.org),
+This is the server hosted at [fun.codelearn.cat/hackathon](https://fun.codelearn.cat/hackathon),
 which serves some requests for the **Hack The Future** hackathon, that took
 place in Gavà (Barcelona) on June 14th.
 
