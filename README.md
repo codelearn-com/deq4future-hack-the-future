@@ -1,7 +1,7 @@
 # Hack-The-Future Server
 
 This is the server hosted at [hackathon.deq4future.org](https://hackathon.deq4future.org),
-which serves some request for the **Hack The Future** hackathon, that took
+which serves some requests for the **Hack The Future** hackathon, that took
 place in Gavà (Barcelona) on June 14th.
 
 The server can be easily set up using docker and uses a Flask application with
